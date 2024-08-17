@@ -1,0 +1,36 @@
+.footer {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+
+  width: 100%; /* Garante que o footer ocupe 100% da largura da página */
+  box-sizing: border-box; /* Inclui o padding na largura total */
+  margin: 0; /* Remove qualquer margem que possa afetar a largura */
+}
+
+.footer p {
+  font-size: 0.875rem;
+  color: #525252;
+  margin-bottom: 15px;
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer_menu a {
+  text-decoration: none;
+  color: #141414;
+  transition: color 0.3s ease;
+}
+
+.footer_menu a:hover {
+  color: #000;
+}
+.footer_menu li {
+  display: inline; /* Certifique-se de que os itens da lista são exibidos em linha */
+}
