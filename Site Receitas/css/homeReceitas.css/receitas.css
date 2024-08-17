@@ -1,0 +1,116 @@
+/* Estilo para a seção de receitas */
+.receitas {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+.receitas h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.receitas p {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.receitas_grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.receita_item {
+  text-align: left;
+  max-width: 500px;
+}
+
+.receita_item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.receita_item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #9cc1b9;
+}
+
+.receita_item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Estilo para as mensagens */
+.mensagem {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.mensagem h1 {
+  font-size: 3rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.mensagem p {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+/* Estilo para a seção de clima dos jogos */
+.clima-jogos {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.clima-jogos h2 {
+  font-size: 2rem; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  margin-bottom: 10px; /* Espaço abaixo do título */
+  text-transform: uppercase; /* Transformação de texto para maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre as letras */
+  position: relative;
+}
+
+.clima-jogos h2:before,
+.clima-jogos h2:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 150px; /* Largura da linha */
+  height: 1px; /* Altura da linha */
+  background-color: #000000; /* Cor da linha */
+}
+
+.clima-jogos h2:before {
+  left: -60px; /* Posição da linha à esquerda */
+}
+
+.clima-jogos h2:after {
+  right: -60px; /* Posição da linha à direita */
+}
+
+.clima-jogos p {
+  font-size: 1rem; /* Tamanho da fonte */
+  color: #000000; /* Cor do texto */
+  margin-top: 10px; /* Espaço acima do parágrafo */
+  text-transform: uppercase; /* Transformação de texto para maiúsculas */
+  letter-spacing: 1px; /* Espaçamento entre as letras */
+}
